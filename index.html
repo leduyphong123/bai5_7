@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="header" style="padding: 15px;">
+        <h3>Market Research Survey</h3>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+    </div>
+
+    <div class="envert">
+        <h6>What is your age range?</h6>
+        <section>
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-50</option>
+            <option>50+</option>
+        </section>
+    </div>
+
+    <div class="envert">
+        <h6>What is your yearly income range?</h6>
+        <section>
+            <option>$0 - $25,000</option>
+            <option>$25,001 - $50,000</option>
+            <option>$50,001 - $100,000</option>
+            <option>$100,000+</option>
+        </section>
+    </div>
+
+    <div class="envert">
+        <h6>Gender Identity</h6>
+        <label><input type="radio" name="gender" checked>Male</label><br />
+        <label><input type="radio" name="gender">Female</label><br />
+        <label><input type="radio" name="gender">Nonbinary</label><br />
+    </div>
+
+    <div class="envert">
+        <h6>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h6>
+        <label><input type="checkbox" name="gender">Product 1</label><br />
+        <label><input type="checkbox" name="gender">Product 2</label><br />
+        <label><input type="checkbox" name="gender">Product 3</label><br />
+    </div>
+
+    <div class="envert">
+        <h6>Gender Identity</h6>
+        <label><input type="radio" name="gender" checked>Daily</label><br />
+        <label><input type="radio" name="gender">Weekly</label><br />
+        <label><input type="radio" name="gender">Monthly</label><br />
+    </div>
+
+    <div class="envert">
+        <h6>GWhat would you pay for the new product?</h6>
+        $ <input type="text" size="5" /> . <input type="text" size="3">
+        <div class="money">
+            <p class="dola">Dollars</p>
+            <p class="cent">Cents</p>
+        </div>
+    </div>
+
+    <div class="envert">
+        <h6>What features would you like to see in the new product.</h6>
+        <textarea name="#" id="" cols="200" rows="10"></textarea>
+    </div>
+
+    <div style="padding: 15px;">
+        <h6>
+            Please rate your level of agreement with the following statements.</h6>
+        
+            <table style="text-align: center;">
+                <tr>
+                    <th></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+                <tr class="envert">
+                    <td style="text-align: left;">Our products are priced fairly.</td>
+                    <td>
+                        <input type="radio" name="fair" /><br />1
+                    </td>
+                    <td>
+                        <input type="radio" name="fair" /><br />2
+                    </td>
+                    <td>
+                        <input type="radio" name="fair" /><br />3
+                    </td>
+                    <td>
+                        <input type="radio" name="fair" /><br />4
+                    </td>
+                </tr>
+                <tr class="envert">
+                    <td style="text-align: left;">Our products are high quality</td>
+                    <td>
+                        <input type="radio" name="qual" /><br />1
+                    </td>
+                    <td>
+                        <input type="radio" name="qual" /><br />2
+                    </td>
+                    <td>
+                        <input type="radio" name="qual" /><br />3
+                    </td>
+                    <td>
+                        <input type="radio" name="qual" /><br />4
+                    </td>
+                </tr>
+                <tr class="envert"> 
+                    <td style="text-align: left;">You would recommend our product to a friend or coworker.</td>
+                    <td>
+                        <input type="radio" name="friend" /><br />1
+                    </td>
+                    <td>
+                        <input type="radio" name="friend" /><br />2
+                    </td>
+                    <td>
+                        <input type="radio" name="friend" /><br />3
+                    </td>
+                    <td>
+                        <input type="radio" name="friend" /><br />4
+                    </td>
+                </tr>
+            </table>
+    </div>
+</body>
+
+</html>
